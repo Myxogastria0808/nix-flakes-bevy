@@ -1,5 +1,5 @@
 {
-  description = "nix-flakes-bevy";
+  description = "bevy flake sample";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
