@@ -54,7 +54,7 @@ jobs:
           fi
       - name: Test
         run: |
-          nix develop --command bash -c "cargo build -- --ignored"
+          nix develop --command bash -c "cargo build"
       - name: Merge and push changes
         if: success() && steps.commit.outputs.has_changes == 'true'
         run: |
