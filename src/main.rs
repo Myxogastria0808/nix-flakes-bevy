@@ -39,6 +39,7 @@ struct Age(u32);
 #[derive(Component)]
 struct Person;
 
+#[allow(dead_code)]
 #[derive(Component)]
 struct Name(String);
 
